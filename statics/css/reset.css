@@ -1,0 +1,61 @@
+/* webfont */
+/*  font-family: 'Noto Sans KR';  font-family: 'NanumSquare';  font-family: 'gsb'; font-family: 'gsm'; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+    font-family: 'gsm';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gsb';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+
+/* reset */
+
+body {
+    height: auto;
+    overflow: auto;
+}
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, address, em, img, small, strong, b, i, center,
+dl, dt, dd, ol, ul, li, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, 
+footer, header, nav, output, section, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;    
+    font-family: 'NanumSquare';  
+    color: #333;
+    
+         
+}
+ol, ul, li {
+	list-style: none;
+}
+a { 
+    text-decoration: none; color: #333;
+}
+h2 { 
+    position: absolute;
+    left: -9999px;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;    
+}
+ul:after, .cl:after { 
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.wrap { 
+    width: 77vw; margin: 0 auto;
+}
